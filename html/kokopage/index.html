@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pranesh Sankar | Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="Logo">Pranesh Sankar</a>
+      <ul>
+        <li><a href="#sec">About</a></li>
+        <li><a href="#cont">Contact</a></li>
+      </ul>
+    </header>
+    <section>
+      <img src="images/image2.png" id="bigMount" />
+      <h2 id="text">Web Designing</h2>
+      <a href="#" id="btn">Hire me!</a>
+      <img src="images/image1.png" id="lowMount" />
+    </section>
+    <div class="sec" id="sec">
+      <h2>About me</h2>
+      <h6>
+        (the text below is supposed to look like giberish, its used when the
+        content is yet to be decided)
+      </h6>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio provident
+        illum corporis fugiat accusamus ducimus optio et, fugit libero
+        consequuntur.
+      </p>
+      <br />
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti
+        ipsam, dolore in sint vero accusamus quidem magni pariatur? Suscipit
+        excepturi maiores reiciendis distinctio, ipsa sed?
+      </p>
+    </div>
+    <div class="over">
+      <div class="image">
+        <img src="images/icon.png" id="icon" />
+      </div>
+    </div>
+
+    <div class="cont" id="cont">
+      <h2>Contact</h2>
+      <p>email: praneshsankarm@gmail.com</p>
+    </div>
+
+    <script>
+      let bigMount = document.getElementById("bigMount");
+      let lowMount = document.getElementById("lowMount");
+      let text = document.getElementById("text");
+      let btn = document.getElementById("btn");
+
+      window.addEventListener("scroll", function () {
+        let value = window.scrollY;
+        bigMount.style.top = value * 0.5 + "px";
+        text.style.marginTop = value + "px";
+        btn.style.marginTop = value * 0.9 + "px";
+      });
+    </script>
+  </body>
+</html>
