@@ -188,6 +188,7 @@ svg #wheel {
   font-style: bold;
 }
 
+
 h5{
   display: flex;
   font-size: 6em;
@@ -208,6 +209,7 @@ h5 span{
 h5:hover span:nth-child(1){
   margin-right: 10px;
 }
+
 h5:hover span{
   color: #00f7ff;
   text-shadow: 0 0 10px #00f7ff;
@@ -218,11 +220,12 @@ h5:hover span{
 
 
 
+
 .card_s {
   position: relative;
   width: 300px;
   height: 300px;
-  margin: 0 auto;
+  margin: 20px;
   background: #ffe600;
   border-radius: 15px;
   box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
@@ -292,7 +295,7 @@ h5:hover span{
   position: relative;
   width: 300px;
   height: 300px;
-  margin: 0 auto;
+  margin: 20px;
   background: #008cff;
   letter-spacing: 10px;
   border-radius: 15px;
@@ -341,6 +344,8 @@ h5:hover span{
   text-shadow: 0 0 20px #00f7ff;
   letter-spacing: 5px;  
 }
+
+
 .card_c:hover{
   box-shadow: 0 15px 60px #00f7ff;
 }
@@ -360,6 +365,6 @@ h5:hover span{
 section {
   width: 79%;
   display: flex;
-  padding-left: 20%;
+  padding-left: 24.5%;
   align-items: center;
 }
