@@ -77,14 +77,7 @@ header {
     text-align: center;
 
   }
-.main {
-    width: 300px;
-    height:300px;
-    min-height: 60px;
-    border: 5px solid rgb(244, 255, 96);
-    border-radius: 30px;
-    padding:15px;
-}
+
 #text {
   position: relative;
   color: #00a2ff;
@@ -94,7 +87,10 @@ header {
   pointer-events: none;
   align-self: center;
   text-align: center;
+
   
+/*!   scroll down animation   */
+
 
 }
 .scroll{
@@ -116,6 +112,11 @@ svg #wheel {
 	animation: scroll ease 2s infinite;
 }
 
+
+
+/*!   About Card   */
+
+
 .card {
   position: relative;
   width: 500px;
@@ -124,6 +125,7 @@ svg #wheel {
   background: #00a2ff;
   border-radius: 15px;
   box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+  transition: 1s;
 }
 .face {
     position: absolute;
@@ -171,6 +173,10 @@ svg #wheel {
   border-top-left-radius: 100px;
   border-top-right-radius: 100px;
 }
+
+.card:hover{
+  box-shadow: 0 15px 60px rgb(0, 225, 255);
+}
 .card:hover h2{
   color: #00f7ff;
   text-shadow: 0 0 20px #00f7ff;
@@ -189,48 +195,51 @@ svg #wheel {
 }
 
 
-h5{
+
+/*!   "skills" heading style   */
+
+
+h5 {
   display: flex;
   font-size: 6em;
-  color: #14214d;
+  color: #00a2ff;
   cursor: pointer;
-  padding-left: 40%;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  text-shadow: 0 0 30px rgba(0, 0, 0, 0.479);
 }
 h5 {
   transition: 0.5s;
 }
-h5:hover{
-  padding-left: 37%;
-}
 
-h5 span{
+
+h5 {
   transition: 0.5s;
 }
-h5:hover span:nth-child(1){
-  margin-right: 10px;
-}
-
-h5:hover span{
+h5:hover {
   color: #00f7ff;
-  text-shadow: 0 0 10px #00f7ff;
+  text-shadow: 0 0 30px #00f7ff;
   letter-spacing: 20px;
 }
 
 
 
 
+/*!   HTML skill card   */
 
 
 .card_s {
   position: relative;
   width: 300px;
   height: 300px;
-  margin: 20px;
+  margin: 30px;
   background: #ffe600;
   border-radius: 15px;
   box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
   transition: 1s;
   letter-spacing: 10px;
+  z-index: 1;
 }
 .face1_s {
       box-sizing: border-box;
@@ -275,6 +284,7 @@ h5:hover span{
 }
 .card_s:hover{
   box-shadow: 0 15px 60px #eeff00;
+  z-index: 5;
 }
 .card_s h2{
     font-size: 2em;
@@ -290,17 +300,18 @@ h5:hover span{
 
 
 
-
+/*!   CSS skill card   */
 .card_c {
   position: relative;
   width: 300px;
   height: 300px;
-  margin: 20px;
+  margin: 30px;
   background: #008cff;
   letter-spacing: 10px;
   border-radius: 15px;
   box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
   transition: 1s;
+  z-index: 1;
 }
 .face1_c {
       box-sizing: border-box;
@@ -345,7 +356,6 @@ h5:hover span{
   letter-spacing: 5px;  
 }
 
-
 .card_c:hover{
   box-shadow: 0 15px 60px #00f7ff;
 }
@@ -363,8 +373,55 @@ h5:hover span{
 }
 
 section {
-  width: 79%;
+  width: 100%;
   display: flex;
-  padding-left: 24.5%;
+  padding-left: 0%;
   align-items: center;
+  justify-content: center;
+
 }
+
+
+
+/*!removed*/
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  background-color:rgb(0, 174, 255);
+  box-shadow: 0 0 30px rgb(0, 0, 0);
+  font-style: bold;
+  color: #0b0e3d;
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #00a2ff;
+  color: rgb(19, 22, 68);
+  font-style: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: ease-in-out 200ms;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #00ffd5;
+  box-shadow: 0 0 10px #00f7ff;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  min-width: 500px;
+  padding: 20%;
+  color: #00a2ff;
+}
+/*!removed*/
