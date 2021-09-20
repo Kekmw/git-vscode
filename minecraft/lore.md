@@ -1,14 +1,14 @@
 ## |---LAYOUT---|
 
-- a center kingdom at 0,0.
+- a center kingdom at 0 0.
 
 - 5 statues in a pentagon
   with each statue 1000
-  blocks away from 0,0.
+  blocks away from 0 0.
 
 - possible trails to aquire
   op artifacts under each
-  statue.
+  statue. (With challenges in the trails)
 
 - 5 mods oversee the 5 statues
   with `@kokonutsx` overseeing
@@ -26,6 +26,15 @@
   in order to stay protected.
 
   **|breaking laws will result in...?|**
+  *Depends on which law was broken*
+
+- Banishment
+
+- Fine
+
+- Pronounced as a Criminal
+
+- Execution and stripped off all items
 
 ## |----LORE----|
 
@@ -33,7 +42,7 @@
 
 - The statues are named:
 
-  - `enas`
+  - `Nýchta` (Kek's Statue | Translation in English: Night) *your statue names are lame*
   - `dyo`
   - `tria`
   - `tessera`
@@ -44,12 +53,19 @@
 > We cud change the statue names
 > a bit to sound more english
 
+> Kek: Just google translate words you like to greek :D
+
 - As soon as the player spawns
   he gets to know about 5 mysterious
-  statues. he is asked to chose a statue
+  statues. he is asked to choose a statue
   to live near.
 
+> Kek: Just have the spawning be in a spawn area where there's lecterns to let the new player know everything and 5 pressure plates
+
 # |warriors|
+
+> Can't we alter it so that each statue has their own unique class so 1 is a brewer, 1 is a warrior, 1 is a hunter, 1 is a barbarian, and 1 is an assassin ;)
+> Each trial should be fitted with the themed class their statue is so assassin statue would do mind puzzle and warriors and barbarians are fighting trials hunter is a marksman trial and brewer is a brewing trial
 
 - each statue comprises of a `warrior`
   warriors hold artifacts gifted by the
