@@ -53,7 +53,7 @@
 
 - each statue comprises of a `warrior`
   warriors hold artifacts gifted by the
-  statues, wach statue has a unique ability
+  statues, each statue has a unique ability
   warriors have the power to wage wars.
 
 - a warrior is chosen by a `trial`,
@@ -65,7 +65,7 @@
 
 - residents of a statue can wage a battle against
   the warrior to take his place and can aqquire the
-  artifact apon defeating him.
+  artifact upon defeating him.
 
 # |economy|
 
