@@ -33,16 +33,16 @@
 
 - The statues are named:
 
-  > greek names...?
-
   - `enas`
   - `dyo`
   - `tria`
   - `tessera`
   - `pente`
 
-  > We cud change the statue names
-  > a bit to sound more english
+> greek names...?
+
+> We cud change the statue names
+> a bit to sound more english
 
 - As soon as the player spawns
   he gets to know about 5 mysterious
